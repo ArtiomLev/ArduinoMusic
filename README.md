@@ -52,14 +52,22 @@ Precompiled .hex files stored in `precompiled` folder in subfolders.
 ### Compile
 
 #### PlatformIO
+
 1) Open project directory as PlatformIO project
 2) Select env
 3) Compile / upload
 
 #### Arduino IDE
+
 1) Move `src/main.cpp` to some empty folder
 2) Rename `main.cpp` to `[folder_name].ino` or just rename file, ArduinoIDE will make folder
 3) Open .ino file in ArduinoIDE
 4) Select board
 5) Upload
+
+#### By scripts (only linux or wsl)
+
+* `compile.sh` - install PlatformIO in python venv and compile project for all envs
+* `copy-compiled.sh` - copy compiled filed to `precompiled` folder
+* `compile-copy.sh` - compile and copy files
 
