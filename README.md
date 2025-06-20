@@ -20,7 +20,7 @@
 8) **Put text file** on SD card
 9) **Insert SD** card
 10) **Restart** Arduino
-11) **Connect** to serial by USB, **115200 bod**
+11) **Connect** to serial by USB, **115200 baud**
 12) Enjoy!
 
 ## Tips
