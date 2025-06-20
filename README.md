@@ -51,5 +51,15 @@ Precompiled .hex files stored in `precompiled` folder in subfolders.
 
 ### Compile
 
-Use PlatformIO to compile and upload firmware.
+#### PlatformIO
+1) Open project directory as PlatformIO project
+2) Select env
+3) Compile / upload
+
+#### Arduino IDE
+1) Move `src/main.cpp` to some empty folder
+2) Rename `main.cpp` to `[folder_name].ino` or just rename file, ArduinoIDE will make folder
+3) Open .ino file in ArduinoIDE
+4) Select board
+5) Upload
 
