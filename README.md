@@ -41,3 +41,15 @@ You can connect a speaker instead of a buzzer for better sound quality.
 * SD or microSD card
 * Buzzer or speaker
 
+## Firmware
+
+### Load
+
+You can upload precompiled firmware file by some utility. (For example CLI avrdude, but this is for experts.)
+
+Precompiled .hex files stored in `precompiled` folder in subfolders.
+
+### Compile
+
+Use PlatformIO to compile and upload firmware.
+
